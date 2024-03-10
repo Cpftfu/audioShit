@@ -27,12 +27,12 @@
 
         <Grid Grid.Row="4" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-                <RibbonButton Name="BackGovno" Label="НАЗАД" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\back.png" Click="BackGovno_Click"/>
-                <RibbonButton Name="PlayGovno" Label="ИГРАТЬ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\play.png" Click="PlayGovno_Click"/>
-                <RibbonButton Name="PauseGovno" Label="СТОП" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\pause.png" Click="PauseGovno_Click"/>
-                <RibbonButton Name="NextGovno" Label="СЛЕДУЩ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\next.png" Click="NextGovno_Click"/>
-                <RibbonButton Name="RepeatGovno" Label="ПОВТОР" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\repeat.png" Click="RepeatGovno_Click"/>
-                <RibbonButton Name="RandomGovno" Label="РАНДОМ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\rand.png" Click="NextGovno_Click"/>
+                <RibbonButton x:Name="RepeatGovno" Label="ПОВТОР" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\repeat.png" Click="RepeatGovno_Click" Width="138"/>
+                <RibbonButton x:Name="BackGovno" Label="НАЗАД" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\back.png" Click="BackGovno_Click"/>
+                <RibbonButton x:Name="PlayGovno" Label="ИГРАТЬ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\play.png" Click="PlayGovno_Click"/>
+                <RibbonButton x:Name="PauseGovno" Label="СТОП" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\pause.png" Click="PauseGovno_Click"/>
+                <RibbonButton x:Name="NextGovno" Label="СЛЕДУЩ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\next.png" Click="NextGovno_Click"/>
+                <RibbonButton x:Name="RandomGovno" Label="РАНДОМ" LargeImageSource="C:\Users\Вика\source\repos\WPFAudioPlayer\pic\rand.png" Click="NextGovno_Click" Width="138"/>
             </StackPanel>
         </Grid>
 
